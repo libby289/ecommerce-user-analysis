@@ -1,0 +1,45 @@
+# ==================== Python相关 ====================
+__pycache__/
+*.py[cod]
+*.so
+.Python
+*.pyc
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# ==================== Jupyter Notebook相关 ====================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ==================== 数据文件（不要上传大文件） ====================
+# 原始数据文件（太大，不要上传）
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# 但可以保留小样本文件，所以不忽略data/文件夹本身
+# data/sampled_data.csv 这个文件会上传
+
+# ==================== 系统文件 ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================== 编辑器/IDE文件 ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==================== 日志文件 ====================
+*.log
+*.tmp
